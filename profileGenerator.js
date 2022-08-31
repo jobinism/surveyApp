@@ -5,23 +5,23 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
-rl.question('Who is your favourite rapper?', (answer) => {
+rl.question('Whats wrong?', (answer) => {
   console.log(`${answer}`);
 
 
-  rl.question('Why do you hate music?', (answer) => {
+  rl.question('Why does this bother you?', (answer) => {
     console.log(`${answer}`);
   
-    rl.question('Then why did you give such a terrible answer?', (answer) => {
+    rl.question('Is there something you can do about it?', (answer) => {
       console.log(`${answer}`);
     
-      rl.question('What colour are your socks?', (answer) => {
+      rl.question('Did someone say this about/to you?', (answer) => {
         console.log(`${answer}`);
       
-        rl.question('Damn, who taught you fashion?', (answer) => {
+        rl.question('What would help right now?', (answer) => {
           console.log(`${answer}`);
         
-          rl.question('Why are you getting into coding?', (answer) => {
+          rl.question('Lastly, Why are you getting into coding?', (answer) => {
             console.log(`${answer}`);
           
             rl.question('Are you gonna be great?', (answer) => {
